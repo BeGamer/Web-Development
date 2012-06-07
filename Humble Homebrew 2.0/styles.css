@@ -1,0 +1,81 @@
+body
+{
+text-align: center;
+margin: 0 auto;
+padding: 0;
+background-image: url(images/bg.png);
+background-repeat: repeat;
+}
+
+.logo
+{
+opacity: 0.4;
+filter: alpha(opacity=40);
+filter: url(filters.svg#grayscale);
+filter: gray;
+-webkit-filter: grayscale(1);
+}
+
+.logo:hover
+{
+opacity: 1;
+filter: alpha(opacity=100);
+filter: none;
+-webkit-filter: grayscale(0);
+}
+
+.Header
+{
+height: 40%;
+width: 100%;
+background-color: white;
+background-image: url(images/Header-loop.png);
+background-repeat: repeat-x;
+margin-bottom: -5%;
+}
+
+.Container
+{
+margin-top: 3%;
+padding-top: 6%;
+background-image: url(images/page-rip.png);
+background-repeat: repeat-x;
+}
+
+.Body
+{
+height: 100%;
+width: 95%;
+background-color: #FFF;
+margin-left: 2.5%;
+margin-right: 2.5%;
+border-style: solid;
+border-width: 1;
+border-color: grey;
+overflow-y: scroll;
+}
+
+.Stats
+{
+width: 25%;
+border-style: solid;
+border-width: 1;
+border-color: black;
+margin-left: 2%;
+margin-right: -2%;
+float: left;
+}
+
+.Footer
+{
+height: 3%;
+width: 100%;
+position: fixed;
+font-family: Arial;
+font-style: italic;
+font-size: 8;
+bottom: 0;
+padding-top: 1%;
+background-color: black;
+color: white;
+}
